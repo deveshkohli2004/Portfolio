@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.calsi{
+    color: white;
+    background-color: rgb(33, 31, 31);
+    height: 500px;
+    width: 430px;
+    border: 2px solid black;
+    border-radius: 4%;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px;
+    background-color:rgb(10, 111, 10);
+    height: 80px;
+    width: 347px;
+}
+.button{
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:40px;
+}
+.btn:hover{
+    border:3px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+#id{
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+
+}

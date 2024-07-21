@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* about */
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about:hover{
+    text-decoration: 2px rgb(10, 10, 11) underline;
+}
+/* above footer */
+.info-sec{
+    gap: 50px;
+}
+.abouts{
+width: 719px;
+}
+.box{
+    border-radius: 10px;
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+.anchor:hover{
+    color: white;
+}
+/* footer */
+.image{
+    height: 450px;
+    object-fit:cover;
+}
+.social:hover{
+    background-color: none;
+}
+.social{
+    font-size: 50px;
+    padding: 2.5px;
+}
+.fb-icon{
+    color: blue;
+}
+.insta-icon:hover{
+     color:#ff1c77;
+}
+.insta-icon{
+    color:#ff1c77;
+}
+.github-icon{
+    color:black;
+}
+.github-icon:hover{
+    color:black;
+}
